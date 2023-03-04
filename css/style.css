@@ -1,0 +1,366 @@
+:root {
+    --black: (rgb(11, 2, 2));
+    --font1: 'Bai Jamjuree', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* *********Top Contact************* */
+
+/* .header-top {
+    background: black;
+    color: aliceblue;
+    font-family: var(--font1);
+}
+
+.biz {
+    color: #ffc857;
+    font-size: 18px;
+}
+
+.bi {
+    color: white;
+    font-size: 18px;
+}
+
+.bi:hover {
+    color: yellow;
+} */
+
+/* ************ Navbar Section ************* */
+
+.name {
+    background-color: black;
+}
+
+
+.navbar-brand {
+    font-family: var(--font1);
+
+}
+
+.anch1 {
+    font-family: var(--font1);
+    font-weight: bold;
+}
+
+.button {
+    font-family: inherit;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+}
+
+.button:focus,
+.button:hover {
+    color: #fff;
+}
+
+.button:focus:after,
+.button:hover:after {
+    width: 100%;
+    left: 0%;
+}
+
+.button:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #ff4800;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+}
+
+.nav-icon {
+    font-size: 20px;
+}
+
+.bix {
+    color: white;
+}
+
+.bix:hover {
+    color: #ff4800;
+
+}
+
+@media(min-width:992px) {
+    .anch1 {
+        margin-left: 5%;
+    }
+}
+
+@media(min-width:1200px) {
+    .anch1 {
+        margin-left: 18%;
+    }
+}
+
+
+
+/* *********** Header Section************* */
+
+.ns {
+    font-size: 28px;
+    font-family: var(--font1);
+}
+
+.contact a {
+    border: 2px solid white;
+    padding: 9px 50px;
+    color: white;
+    font-family: var(--font1);
+    font-size: 25px;
+}
+
+.contact a:hover {
+    border: 2px solid black;
+    color: black;
+}
+
+.heading {
+    font-size: 2rem;
+    font-family: var(--font1);
+    color: aliceblue;
+}
+
+.sec-1 {
+    background-image: linear-gradient(rgba(2, 0, 36, 0.349), rgba(9, 9, 121, 0.295)), url(../images/top-banner.jpg);
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.heading h1 {
+    justify-content: center;
+    font-size: 36px;
+    padding: 20px;
+
+}
+
+@media(min-width:768px) {
+    .heading h1 {
+        font-size: 4rem;
+    }
+
+    .ns {
+        font-size: 30px;
+    }
+}
+
+
+/***************   About Section  **************/
+.about {
+    background-image: linear-gradient(rgba(2, 0, 36, 0.9), rgba(9, 9, 10, 0.9)), url(../images/about\ image.jpg);
+    background-size: cover;
+}
+
+.about-me {
+    text-align: center;
+    color: #ffc857;
+    font-family: var(--font1);
+    font-size: 40px;
+
+}
+
+.rahul {
+    border-radius: 0px 15px 15px 15px;
+}
+
+.anch1 {
+    color: #ffc857;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.about1 ul {
+    list-style: none;
+    line-height: 30px;
+}
+
+@media(min-width:992px) {
+    .rahul {
+        width: 400px;
+    }
+}
+
+
+/**************** What We Offer Section  ****************/
+
+.offer {
+    background-image: url(../images/bg-section-1.jpg);
+    height: 100%;
+}
+
+.offer1 h2 {
+    font-family: var(--font1);
+    font-size: 35px;
+    color: #ffc857;
+}
+
+.card1 h4,
+p {
+    font-family: var(--font1);
+    color: white;
+}
+
+.card2 h4,
+p {
+    font-family: var(--font1);
+    color: white;
+}
+
+.card3 h4,
+p {
+    font-family: var(--font1);
+    color: white;
+}
+
+
+
+/***************** Know More Section *******************/
+.More {
+    background-image: url(../images/bg5.jpg);
+}
+
+.know h2 {
+    font-family: var(--font1);
+    color: #ffc857;
+}
+
+.More h6 {
+    color: white;
+}
+
+.seaf h5 {
+    color: #ffbf00;
+    font-size: 3rem;
+}
+
+.seaf h6 {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--font1);
+}
+
+.seaf p {
+    font-family: var(--font1);
+}
+
+
+/**************** project Section ***************/
+.project {
+    background-image: url(../images/hero_pattern.jpg);
+    width: 100%;
+}
+
+.projects {
+    font-family: var(--font1);
+    color: #ffc857;
+}
+
+.img1:hover {
+    transition: .5s;
+    transform: scale(1.1);
+}
+
+.image1 {
+    position: absolute;
+}
+
+.expert {
+    font-family: var(--font1);
+
+    text-align: center;
+    color: yellow;
+    font-size: 50px;
+
+}
+
+/**************** Counter Section *****************/
+.counter {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/count\ image.jpg);
+    height: 100%;
+    font-family: var(--font1);
+    padding: 50px;
+    background-size: cover;
+}
+
+.FACTS1 {
+    color: #ffc857;
+}
+
+.counter h2 {
+    font-size: 50px;
+}
+
+
+
+/* ************** Building Section ************** */
+.build {
+    background-image: url(../images/ptn-1.png);
+}
+
+
+/************* Footer Section ***************/
+
+.footer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.29)), url(../images/footer\ image2.jpg);
+    height: 100%;
+    background-size: cover;
+}
+
+.service {
+    color: #ffc857;
+    font-family: var(--font1);
+}
+
+.service a {
+    font-family: var(--font1);
+    color: white;
+}
+
+.service a:hover {
+    color: yellow;
+}
+
+.service ul {
+    list-style: none;
+}
+
+.contact {
+    font-family: var(--font1);
+    color: white;
+}
+
+.contact h4 {
+    color: #ffc857;
+
+}
+
+.contact ul {
+    list-style: none;
+}
+
+.location {
+    font-family: var(--font1);
+    color: #ffc857;
+}
+
+.map {
+    width: 300px;
+    height: 150px;
+}
